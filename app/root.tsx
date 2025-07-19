@@ -10,6 +10,13 @@ import {
 import type { Route } from './+types/root';
 import './app.css';
 
+export const meta = () => {
+  return [
+    { title: 'React Router App' },
+    { name: 'description', content: 'React Router v7 Tutorial!' },
+  ];
+};
+
 export const links: Route.LinksFunction = () => [
   { rel: 'preconnect', href: 'https://fonts.googleapis.com' },
   {
