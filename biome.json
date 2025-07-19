@@ -9,9 +9,10 @@
 		"includes": [
 			"**/*.ts",
 			"**/*.tsx",
-			"**/*.js"
+			"**/*.js",
+			"!app/components/shadcn/ui/**"
 		],
-		"ignoreUnknown": false
+		"ignoreUnknown": true
 	},
 	"formatter": {
 		"enabled": true,
